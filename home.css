@@ -1,0 +1,127 @@
+body{
+    margin:auto;
+    background-color: wheat;
+}
+.header{
+    color: black;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: row;
+}
+.titolo{
+    margin-left:20px;
+    font-family: "Yellowtail", serif;
+    font-size: 50px;
+    color: #00308F;
+    margin-bottom: 0%;
+    margin-top: 17%;
+}
+#logo{
+    width: 140px;
+    margin-left: 15px;
+}
+.explore{
+    margin-left: 5%;
+    margin-right: 14%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+    animation: colorChange 8s infinite, moveText 8s infinite;
+}
+
+@keyframes colorChange {
+    0% { color: #000; }
+    25% { color: #F08000; }    
+    50% { color: #ffce96; }
+    75% { color: #F08000; }
+    100% { color: #000; }
+}
+
+@keyframes moveText {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(20px); }
+    100% { transform: translateX(0); }
+}
+
+button{
+    background-color: #0071c5;
+    border-style: solid; 
+	border-collapse: collapse;
+    border-color: black;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    height: 100px;
+    margin-top: 2%;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.fakebutton{
+    background-color: #F08000;
+    border-style: solid; 
+	border-collapse: collapse;
+    border-color: black;
+    border-radius: 10px;
+    width: auto;
+    padding: 10px;
+    height: 100px;
+    margin-top: 2%;
+    margin-right: 2%;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to bottom, #F08000 3%, black 100%);
+}
+.shopping{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    margin: 45px;
+    font-size: 50px;
+}
+.oggetti{
+    width: 400px;
+    object-fit: contain;
+}
+.descrizione{
+    font-size: 30px;
+    margin-right: 2%;
+    margin-left: 3%;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #d3d3d3;
+}
+.form{
+    width: 30%;
+}
+#botton{
+    background-color: #0071c5;
+    border-style: solid; 
+	border-collapse: collapse;
+    border-color: black;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+    height: 100px;
+    margin-top: 2%;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 55%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    color: whitesmoke;
+}

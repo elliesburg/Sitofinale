@@ -1,0 +1,58 @@
+body{
+    background-color: #F08000;
+}
+.signin{
+    font-size: 30px;
+    border-style: solid; 
+	border-collapse: collapse;
+    border-color: black;
+    border-radius: 5%;
+    border-width: 3px;
+    background-color: white;
+    margin-left: 32%;
+    margin-right: 32%;
+    padding: 20px;
+}
+#logo{
+    margin-left: 35%;
+    width: 30%;
+}
+.titolo1{
+    text-align: center;
+    margin-top: 0%;
+    font-family: "Yellowtail", serif;
+    font-size: 70px;
+    color: #00308F;
+
+}
+.titolo2{
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Roboto"
+}
+.dati{
+    font-family: "Roboto";
+    font-size: 25px;
+}
+#botton{
+    background-color: #0071c5;
+    border-style: solid; 
+	border-collapse: collapse;
+    border-color: black;
+    border-radius: 30px;
+    width: 70%;
+    height: 50px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: whitesmoke;
+}
+input{
+    height: 30px;
+    font-size: 25px;
+    border-style: solid; 
+	border-collapse: collapse;
+    border-color: black;
+    border-radius: 30px;
+    height: 45px;
+}
